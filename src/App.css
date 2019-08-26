@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+main {
+  padding: 40px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  padding: 0 50px;
+  justify-content: space-between;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover{
+  color: lightgrey;
+}
+
+header a h1 {
+  color: white;
+  padding: 0;
+  margin: 0;
+  line-height: 80px;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  line-height: 80px;
+}
+
+header ul li{
+  flex-basis: 0%;
+  margin: 0 0 0 25px;
+}
+
+header ul li a{
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+}
+
+img {
+  width: 500px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  margin: 0 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.published-at {
+  margin: 0;
+}
+
+.article-title {
+  margin-bottom: 0;
+  width: 320px;
+  text-align: center;
+}
+
+.article-description{
+  font-size: 1.25em;
+  width: 320px;
+}
+
+.article-url {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.article-url:hover {
+  background-color: rgba(0,0,0,0.9);
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.search-bar button{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+}
+
+.search-bar input{
+  padding: 8px 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
